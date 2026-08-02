@@ -1,0 +1,572 @@
+[
+ {
+  "name": "오후 3시",
+  "cover": "/Volumes/데타1/미출시곡/오후 3시/cover.jpg",
+  "songs": [
+   "[오후 3시의 중력]",
+   "[회색 도시를 건너, 파란]",
+   "무릎"
+  ],
+  "lang": "ko",
+  "cover_file": "covers/album_000.jpg"
+ },
+ {
+  "name": "Slow Bloom",
+  "cover": "/Volumes/데타1/미출시곡/미출시/Slow Bloom/cover.jpg",
+  "songs": [
+   "Crawl",
+   "In My Own Time",
+   "Monologue",
+   "Off the Grid",
+   "Polaroid Fade",
+   "Stale Air"
+  ],
+  "lang": "en",
+  "cover_file": "covers/album_001.jpg"
+ },
+ {
+  "name": "밤의 온기",
+  "cover": "/Volumes/데타1/미출시곡/미출시/밤의 온기/cover.jpg",
+  "songs": [
+   "너의 빈자리",
+   "새벽 3시의 가로등",
+   "새벽의 침묵 (Silence of Dawn",
+   "우리 다시 만나",
+   "창밖 어스름",
+   "퇴근길"
+  ],
+  "lang": "ko",
+  "cover_file": "covers/album_002.jpg"
+ },
+ {
+  "name": "Starlight July",
+  "cover": "/Volumes/데타1/미출시곡/출시1/Starlight July/cover.jpg",
+  "songs": [
+   "4_30 AM",
+   "July's Last Song",
+   "Late July",
+   "Sip of Serenity",
+   "Starlight Thursday",
+   "Thursday After the Rain"
+  ],
+  "lang": "en",
+  "cover_file": "covers/album_003.jpg"
+ },
+ {
+  "name": "Summer Stories",
+  "cover": "/Volumes/데타1/미출시곡/출시1/Summer Stories/cover.jpg",
+  "songs": [
+   "Chlorine Dreams",
+   "Cold Brew Wave",
+   "Crimson Horizon",
+   "Sparklers in the Sand",
+   "Summer Squall",
+   "The Last Hurrah"
+  ],
+  "lang": "en",
+  "cover_file": "covers/album_004.jpg"
+ },
+ {
+  "name": "Letters in the Rain",
+  "cover": "/Volumes/데타1/미출시곡/출시1/Letters in the Rain/cover.jpg",
+  "songs": [
+   "3 AM Letters",
+   "Like the Rain",
+   "Neon Silhouettes",
+   "Silver Through the Glass",
+   "Where the Wind Lingers",
+   "_Wishing on a Shooting Star_"
+  ],
+  "lang": "en",
+  "cover_file": "covers/album_005.jpg"
+ },
+ {
+  "name": "Four Seasons Without You",
+  "cover": "/Volumes/데타1/미출시곡/출시1/Four Seasons Without You/cover.jpg",
+  "songs": [
+   "Alley Cat's Serenade",
+   "First Spring After You",
+   "Hesitating Summer",
+   "Paper Walls",
+   "Steeped in Solitude",
+   "Violet Fade"
+  ],
+  "lang": "en",
+  "cover_file": "covers/album_006.jpg"
+ },
+ {
+  "name": "봄을 깨우는 안부",
+  "cover": null,
+  "songs": [
+   "Midnight Trace (Emma Glow)",
+   "[신호등 앞의 행운 - 정규 곡 버전]",
+   "[양말 속의 평화 - 정규 곡 버전]",
+   "나만의 행복",
+   "동네 빵집의 향기 - 정규 곡 버전]",
+   "봄을 깨우는 https___cdn2.suno.ai_image_large_cd5f04b9-21e7-4730-ba9f-2fca8938e877.jpeg안부",
+   "심야의 다이어리",
+   "주말의 행방"
+  ],
+  "lang": "ko",
+  "cover_file": null
+ },
+ {
+  "name": "1완성 인디곡",
+  "cover": null,
+  "songs": [
+   "[0.5평의 비밀]",
+   "[고속도로 위 고립된 낭만]",
+   "[머릿속 라디오]",
+   "[오후 3시의 중력]",
+   "[회색 도시를 건너, 파란]",
+   "나만의 자조",
+   "너라는 기분",
+   "무릎",
+   "하얗게 김이 서린 창문"
+  ],
+  "lang": "ko",
+  "cover_file": null
+ },
+ {
+  "name": "A Night Touched by Moonlight",
+  "cover": null,
+  "songs": [
+   "Cold Side Of The Pillow",
+   "Fog On The Window",
+   "Our Song Has No Title",
+   "Read At 11_47",
+   "The Mirror Knows",
+   "You Kept The Umbrella"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "여백의 온도",
+  "cover": "/Volumes/데타1/출시곡/출시2/여백의 온도/cover.jpg",
+  "songs": [
+   "네온사인을 지나쳐 (Passing by Neon Signs)",
+   "되감기 (Rewind)",
+   "빗방울의 노크",
+   "열어본 서랍 속 별",
+   "오후의 기적",
+   "유리구두를 신은 오후 (An Afternoon in Glass Slippers)"
+  ],
+  "lang": "ko",
+  "cover_file": "covers/album_010.jpg"
+ },
+ {
+  "name": "소실점과 여백",
+  "cover": "/Volumes/데타1/출시곡/출시2/소실점과 여백/cover.jpg",
+  "songs": [
+   "Neon Submersion",
+   "궤도의 끝에서 (At the Edge of the Orbit)",
+   "모래알처럼",
+   "빗소리의 방 (A Room of Rain Sounds)",
+   "빛의 실",
+   "아직 쓰지 않은 페이지",
+   "안개 낀 주파수 (Misty Frequency)"
+  ],
+  "lang": "ko",
+  "cover_file": "covers/album_011.jpg"
+ },
+ {
+  "name": "따스한 햇살 아래",
+  "cover": "/Volumes/데타1/출시곡/출시2/따스한 햇살 아래/cover.jpg",
+  "songs": [
+   "기다림의 끝에서",
+   "나만의 시간",
+   "네온 수채화",
+   "문득, 그대",
+   "비가 개면 닿을까",
+   "오늘의 마침표를 찍으며",
+   "햇살 같은 하루"
+  ],
+  "lang": "ko",
+  "cover_file": "covers/album_012.jpg"
+ },
+ {
+  "name": "등대의 빛",
+  "cover": "/Volumes/데타1/출시곡/출시2/등대의 빛/cover.jpg",
+  "songs": [
+   "물빛의 위로",
+   "불꽃의 속도 (Speed of Flame)",
+   "새벽의 온기 (The Warmth of Dawn)",
+   "잊혀진 벼랑 끝에서",
+   "잔상의 주파수 (Frequency of Afterimages)",
+   "태엽을 감아줘"
+  ],
+  "lang": "ko",
+  "cover_file": "covers/album_013.jpg"
+ },
+ {
+  "name": "Beyond the Map",
+  "cover": "/Volumes/데타1/출시곡/출시2/Beyond the Map/cover.jpg",
+  "songs": [
+   "Beyond the Map",
+   "Flicker and Flow",
+   "Ink and Echoes",
+   "Mirage Motel",
+   "Roofline Sunrise",
+   "Soft Error"
+  ],
+  "lang": "en",
+  "cover_file": "covers/album_014.jpg"
+ },
+ {
+  "name": "Clockwork Doll's Night",
+  "cover": "/Volumes/데타1/출시곡/출시2/Clockwork Doll's Night/cover.jpg",
+  "songs": [
+   "2 AM Drive",
+   "Café Window Glow",
+   "Last Breath of Starlight",
+   "Moonlight Wind-Up",
+   "Paper Airplanes from the 17th Floor",
+   "Paper Pilot",
+   "Warm Static",
+   "Whispers in the Fog"
+  ],
+  "lang": "en",
+  "cover_file": "covers/album_015.jpg"
+ },
+ {
+  "name": "Colors of a Tuesday Afternoon",
+  "cover": "/Volumes/데타1/출시곡/출시2/Colors of a Tuesday Afternoon/cover.jpg",
+  "songs": [
+   "Barefoot In The Garden",
+   "Flowers I Bought Myself",
+   "Laundry Day Feeling",
+   "Lemonade Afternoon",
+   "My Favorite Kind of Morning",
+   "Paint The Day"
+  ],
+  "lang": "en",
+  "cover_file": "covers/album_016.jpg"
+ },
+ {
+  "name": "Growing Quieter",
+  "cover": null,
+  "songs": [
+   "Growing Quieter",
+   "Last Round",
+   "Running Alone",
+   "The Last Box",
+   "Watched The Sunrise",
+   "learned to cook"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "Neon Heartbreak",
+  "cover": "/Volumes/데타1/출시곡/출시2/Neon Heartbreak/cover.jpg",
+  "songs": [
+   "Dust and Light",
+   "Midnight Velvet",
+   "Moonlit Underwater Ballet",
+   "Neon Heartbreak Chase",
+   "Neon Puddle Reflections",
+   "The Phantom's Ballroom"
+  ],
+  "lang": "en",
+  "cover_file": "covers/album_018.jpg"
+ },
+ {
+  "name": "The Midnight_Silence",
+  "cover": null,
+  "songs": [
+   "Almost Texted You",
+   "Five Minutes More",
+   "I Still Know Your Knock",
+   "Read At 11_47",
+   "Tea For Two, Cup For One",
+   "The Chipped Mug",
+   "Your Hoodie On My Chair"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "Walking Through Time",
+  "cover": null,
+  "songs": [
+   "3AM And I'm Fine",
+   "I Don't Mind The Rain Anymore",
+   "Long Way Home",
+   "Radio Song",
+   "Spare Key",
+   "Your Chair At The Table"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "Wanderlight",
+  "cover": "/Volumes/데타1/출시곡/출시2/Wanderlight/cover.jpg",
+  "songs": [
+   "Fading Polaroid",
+   "Neon Afterglow",
+   "Sky Ignition",
+   "Wanderlight",
+   "Where the Forest Breathes",
+   "_Warm Through the Rain_"
+  ],
+  "lang": "en",
+  "cover_file": "covers/album_021.jpg"
+ },
+ {
+  "name": "between two world",
+  "cover": null,
+  "songs": [
+   "Between Two Worlds",
+   "Forest Dreams",
+   "Horizon's Promise",
+   "Mountain's Call",
+   "Ocean's Whisper",
+   "Starlit Communion",
+   "Whispers in the Dark"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "neon mirage",
+  "cover": null,
+  "songs": [
+   "City Moon",
+   "Neon Mirage",
+   "Night Highway",
+   "Night Shift",
+   "Silver Bridge",
+   "Starlight Resonance"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "neon pulse",
+  "cover": null,
+  "songs": [
+   "Midnight Trace",
+   "Neon Pulse (1)",
+   "Neon Pulse",
+   "Paper Moon",
+   "Rainy Weekend",
+   "Room 402",
+   "Taxi Driver"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "prisem of the night",
+  "cover": null,
+  "songs": [
+   "Butterfly Effect (Add Vocal)",
+   "Color Palette (Add Vocal)",
+   "Late Night Thoughts (Add Vocal)",
+   "Neon Dreams (Add Vocal)",
+   "Unspoken Feelings (Add Vocal)",
+   "Waves of Time (Add Vocal)"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "secon chance",
+  "cover": null,
+  "songs": [
+   "Beautiful Ache",
+   "Everyday Magic",
+   "Grateful Heart",
+   "Metamorphosis",
+   "Morning Rituals",
+   "Night Thoughts",
+   "Second Chances",
+   "Slow Growing"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "seoul after midnigh",
+  "cover": null,
+  "songs": [
+   "Café Corner Daydream",
+   "Late Night Study Session",
+   "Neon & Nostalgia",
+   "Rainy Day in My Room",
+   "Seoul After Midnight",
+   "Spring That Forgot to Come"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "small hours",
+  "cover": null,
+  "songs": [
+   "Afternoon Ripple",
+   "Faded Gold",
+   "Green Whisper",
+   "Green at the End of Winter",
+   "Patterns of Time",
+   "Tiny Gap"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "solitary snctuary",
+  "cover": null,
+  "songs": [
+   "Candlelight & Letting Go",
+   "Golden Hour Alone",
+   "Headphones & Heartache",
+   "Pages & Daydreams",
+   "Rooftop at 3AM",
+   "Seaside Study Break"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "sunday monning sunshine",
+  "cover": null,
+  "songs": [
+   "After the Rain Clears",
+   "Breezy Afternoon Ride",
+   "First Ice Cream of Summer",
+   "Sunday Morning Sunshine",
+   "Weekend Market Morning",
+   "Yellow Playlist"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "textures of daily life",
+  "cover": null,
+  "songs": [
+   "Getting Used To It",
+   "Somewhere in the Words",
+   "Still Here Without Knowing",
+   "The Edge Of Autumn",
+   "The First Snow Without You",
+   "The Space Between"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "the after image",
+  "cover": null,
+  "songs": [
+   "A Stranger Now",
+   "Bloom Without You",
+   "Film We Never Made",
+   "Half Of Everything",
+   "If It Were You_",
+   "The Rain Knew"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "the hollow hours",
+  "cover": "/Volumes/데타1/출시곡/출시1/the hollow hours/cover.jpg",
+  "songs": [
+   "Almost Called You",
+   "Growth period",
+   "On the way home alone",
+   "One more glass",
+   "The sunrise I didn't want",
+   "Your side of the bed"
+  ],
+  "lang": "en",
+  "cover_file": "covers/album_033.jpg"
+ },
+ {
+  "name": "the last look",
+  "cover": null,
+  "songs": [
+   "Beer By Myself",
+   "Cloudy Day Drive",
+   "Last Cigarette",
+   "Still In My Phone",
+   "The Last Look",
+   "Your Song Again"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "the lingering warmth",
+  "cover": null,
+  "songs": [
+   "Before Summer Finds Us",
+   "Doing Fine",
+   "Lying Awake Again",
+   "One More Cup",
+   "One Stop Early",
+   "The Season You Left Behind"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "things that stayed",
+  "cover": null,
+  "songs": [
+   "Beyond the Lens",
+   "Convenience Store At Midnight",
+   "Dinner For One",
+   "Electric Pulse",
+   "Neon Watercolor",
+   "Orbit"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "urban solitude",
+  "cover": null,
+  "songs": [
+   "Amber Glass",
+   "Last Order",
+   "Old Vinyl",
+   "Paper Plane",
+   "Retro Dreams",
+   "Urban Solitude"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "velevet midnight",
+  "cover": null,
+  "songs": [
+   "Before Sunrise",
+   "Crystal Dream",
+   "Midnight Walk",
+   "Neon Rain",
+   "Velvet Midnight",
+   "Velvet Traffic"
+  ],
+  "lang": "en",
+  "cover_file": null
+ },
+ {
+  "name": "whispers in the dark",
+  "cover": null,
+  "songs": [
+   "Beautiful Goodbye",
+   "By Your Side",
+   "Falling in Love (Again위가 안졸아)",
+   "Holding On to Hope",
+   "Taption"
+  ],
+  "lang": "ko",
+  "cover_file": null
+ }
+]
