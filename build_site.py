@@ -11,6 +11,21 @@ os.makedirs(f"{OUT}/covers", exist_ok=True)
 def nfc(p):
     return unicodedata.normalize("NFC", p)
 
+# EP 영상 URL 매핑 (우리 채널 @jungyu068 업로드분 — 실장님 확정 2026-08!)
+EP_MAP = {
+    "Summer Stories": "iruZR25D2lk",
+    "Starlight July": "E0Ivtq2Xt48",
+    "Neon Heartbreak": "pcQmtGduAeM",
+    "Beyond the Map": "AD8DtnNM_CM",
+    "Wanderlight": "rr9ZHZMalz4",
+    "소실점과 여백": "xuSj1sGEZMo",
+    "여백의 온도": "9Obf99lKbzE",
+    "따스한 햇살 아래": "nilaDJSedOk",
+    "A Night Touched by Moonlight": "H8DSf38GUL4",
+    "The Midnight_Silence": "OcOFcZjs2v0",
+    "Walking Through Time": "Oqdrr9FHOrs",
+}
+
 # 앨범 수집 (커버 있는 폴더!)
 albums = []
 seen = set()
@@ -39,14 +54,19 @@ for wav in glob.glob(os.path.join(DATA1, "**", "*.wav"), recursive=True):
     for f in sorted(os.listdir(d)):
         if f.startswith("._") or not f.endswith(".wav") or "mastering_tmp" in f:
             continue
-        songs.append(nfc(os.path.splitext(f)[0]))
+        songs.append({
+            "title": nfc(os.path.splitext(f)[0]),
+            "file": "/데타1" + nfc(os.path.join(d, f)).replace(DATA1, ""),
+        })
     # 언어 판단 (한글 곡명 = Korean!)
-    has_ko = any('\uac00' <= ch <= '\ud7a3' for ch in " ".join(songs))
+    all_titles = " ".join(s["title"] for s in songs)
+    has_ko = any('\uac00' <= ch <= '\ud7a3' for ch in all_titles)
     albums.append({
         "name": nfc(os.path.basename(d)),
         "cover": cover,
         "songs": songs,
         "lang": "ko" if has_ko else "en",
+        "ep_url": EP_MAP.get(nfc(os.path.basename(d))),
     })
 
 # 커버 복사 (안전한 파일명)

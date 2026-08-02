@@ -108,6 +108,15 @@
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   }
   .album-count { font-size: 11px; color: var(--dim); margin-top: 3px; }
+  .ep-btn {
+    display: inline-block; margin-top: 8px;
+    padding: 5px 12px; border-radius: 14px;
+    background: rgba(201,168,106,0.12); color: var(--accent2);
+    font-size: 11px; letter-spacing: 0.5px;
+    border: 1px solid rgba(201,168,106,0.3);
+    transition: all 0.2s;
+  }
+  .album-card:hover .ep-btn { background: var(--accent); color: #111; }
   /* 모달 */
   .modal {
     position: fixed; inset: 0; z-index: 100;
@@ -198,7 +207,7 @@
   <div style="display:flex; gap:10px; margin-bottom:28px; flex-wrap:wrap;">
     <button class="lang-tab active" data-lang="all">ALL</button>
     <button class="lang-tab" data-lang="ko">🇰🇷 KOREAN</button>
-    <button class="lang-tab" data-lang="en">🇬🇧 ENGLISH</button>
+    <button class="lang-tab" data-lang="en">🍁 ENGLISH (CA)</button>
   </div>
   <div class="grid" id="album-grid"></div>
 </section>
@@ -272,10 +281,29 @@ function render() {
       ${a.cover_file
         ? `<img class="album-cover" src="${a.cover_file}" alt="${a.name}" loading="lazy">`
         : `<div class="album-cover" style="background:linear-gradient(135deg,#1a1a28,#222)"></div>`}
-      <div class="album-name">${a.lang === 'ko' ? '🇰🇷 ' : '🇬🇧 '}${a.name}</div>
+      <div class="album-name">${a.lang === 'ko' ? '🇰🇷 ' : '🍁 '}${a.name}</div>
       <div class="album-count">${a.songs.length} TRACKS</div>
+      ${a.ep_url
+        ? `<div class="ep-btn">▶ EP 영상</div>`
+        : `<div class="ep-btn ch-btn">▶ 채널에서 듣기</div>`}
     </div>`).join('');
   grid.querySelectorAll('.album-card').forEach(card => {
+    // EP 버튼 → EP 영상 바로!
+    const epBtn = card.querySelector('.ep-btn');
+    if (epBtn) {
+      epBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const idx = parseInt(card.dataset.idx);
+        const realIdx = albums.indexOf(list[idx]);
+        const a = albums[realIdx];
+        if (a.ep_url) {
+          window.open('https://youtu.be/' + a.ep_url, '_blank');
+        } else {
+          // EP 없으면 채널 검색으로!
+          window.open('https://www.youtube.com/@jungyu068/search?query=' + encodeURIComponent(a.name), '_blank');
+        }
+      });
+    }
     card.addEventListener('click', () => {
       const idx = parseInt(card.dataset.idx);
       const realIdx = albums.indexOf(list[idx]);
@@ -297,11 +325,19 @@ function openModal(idx) {
         <div class="modal-count">${a.songs.length} TRACKS</div>
       </div>
     </div>
+    <div style="font-size:12px;color:var(--dim);margin-bottom:14px;">▶ 곡을 클릭하면 우리 채널 EP에서 바로 들을 수 있어요!</div>
     ${a.songs.map((s, i) => `
-      <div class="song-row">
+      <div class="song-row" data-yt="${encodeURIComponent(s.title + ' ' + a.name)}">
         <span class="song-num">${i + 1}</span>
-        <span>${s}</span>
+        <span style="flex:1">${s.title}</span>
+        <span style="color:var(--dim);font-size:11px;">▶ 유튜브</span>
       </div>`).join('')}`;
+  // 곡 클릭 → 우리 채널에서 검색! (EP 영상 연결!)
+  box.querySelectorAll('.song-row').forEach(row => {
+    row.addEventListener('click', () => {
+      window.open('https://www.youtube.com/@jungyu068/search?query=' + row.dataset.yt, '_blank');
+    });
+  });
   document.getElementById('modal').classList.add('open');
 }
 
